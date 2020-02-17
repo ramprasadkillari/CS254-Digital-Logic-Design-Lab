@@ -1,0 +1,34 @@
+You have to maintain 2 Queues one for going up, and the other for going
+down at all floors except the ground and top floor (which will have just a
+single queue).
+
+You have to maintain a counter for the number of people in the elevator
+for each elevator
+
+You have to maintain a requests from floor register that stores call
+requests from floors which have people.
+
+You have to maintain the next_floor_to_be_visited (nftbv) for each
+elevator. This is the output of the state machine.
+
+You have to maintain elevator-direction for each elevator
+
+The FSM starts with all elevators at floor 0.
+
+As people come in the going up Queue at floor 0 gets filled up. When it
+has 8 people, the people are transported to any randomly chosen elevator.
+
+The nftbv for that elevator is update.
+The elevator goes to that floor, if there are people in between and there
+is space in the elevator, then the elevator is interrupted.
+Else, the elevator drops people at the floor, and then the next floor is
+updated.
+Once the elevator has finished dropping everyone, then it examines the two
+queues, and the one which is closest is selected. This may be above or
+below the present position of the elevator. Accordingly the
+elevator-direction register is updated. The nftbv is also updated.
+Then the elevator goes to that floor and picks up people, updating the
+nftbv and people counter. It continues to collect people till it becomes
+empty and the cycle repeats.
+At a random floor, the call request is stored and is picked up by the
+first elevator in that direction of movement.

@@ -1,0 +1,34 @@
+Design a circuit Ganit such that:
+
+Ganit can add 2 digit decimal numbers
+
+Ganit can subtract 2 digit decimal numbers
+
+Ganit can multiply single digit decimal numbers
+
+Ganit can present the output of all in BCD as well as binary.
+
+Ganit can calculate square of a single digit decimal number
+
+Ganit has multiple select pins which determine which function is to be
+implemented.
+
+Illustrative test-bench (need not be exhaustive)
+
+
+Tasks:
+
+Write VHDL code for Ganit
+
+Estimate the number of gates in Ganit
+
+Write the test-bench for Ganit
+
+What to submit:
+
+Today: Just the VHDL code with all team members’ roll numbers at the top
+along with test-bench code to ID on the board.
+
+By Friday: The 1 page report on number of gates, functions etc. Anything
+you feel should be there. Please make sure the report is not longer than 1
+page (single side, 10-pt font).
