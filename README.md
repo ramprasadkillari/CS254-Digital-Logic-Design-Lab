@@ -1,5 +1,6 @@
 # CS254-Digital-Logic-Design-Lab
-All my submissions to assignments in CS254 - Digital Logic Design Lab ( Spring Course 2019 IIT BOMBAY)
+All my submissions to assignments in CS254 - Digital Logic Design Lab ( Spring Course 2019 IIT BOMBAY) <br />
+Contributors : Ramprasad, Tarun Somavarapu, Mahith, Tarun Teja (Team : The_Designers)
 
 ## GL-1
 Ganit - A Simple Calculator
